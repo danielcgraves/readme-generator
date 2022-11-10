@@ -41,10 +41,12 @@ inquirer.prompt(questions).then(({ title }) => {
 
     const markdown = generateMarkdown(title);
     console.log(markdown);
+
+    fs.writeFile('README.md', markdown, (err) => err ?
+    console.error(err) : console.log('README generated')
+    );
 });
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
 function init() {}

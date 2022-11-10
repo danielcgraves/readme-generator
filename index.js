@@ -9,7 +9,7 @@ const questions = [
         name: 'title',
         message: 'What is the title of your project?',
     },
-    /* {
+    /*  {
         type: 'input',
         name: 'description',
         message: 'What is the project description?',
@@ -28,18 +28,27 @@ const questions = [
         type: 'input',
         name: 'contribution',
         message: 'Who contributed to this project?',
-    },
+    }, */
     {
+        type: 'list',
+        name: 'license',
+        message: 'What kind of license does this project use?',
+        choices: ['No License', 'Apache', 'MIT', 'GNU GPLv3'],
+    }
+    /* {
         type: 'input',
         name: 'test',
         message: 'Are there any instructions on how to test this project?',
-    }, */
+    },  */
 ];
 
-inquirer.prompt(questions).then(({ title }) => {
-    console.log('title :>> ', title);
+// TODO: Create a function to initialize app
 
-    const markdown = generateMarkdown(title);
+inquirer.prompt(questions).then(({ title, license }) => {
+    console.log('title :>> ', title);
+    console.log('license :>>', license);
+
+    const markdown = generateMarkdown(title, license);
     console.log(markdown);
 
     fs.writeFile('README.md', markdown, (err) => err ?
@@ -48,8 +57,9 @@ inquirer.prompt(questions).then(({ title }) => {
 });
 
 
-// TODO: Create a function to initialize app
+/* 
 function init() {}
 
 // Function call to initialize app
 init();
+ */

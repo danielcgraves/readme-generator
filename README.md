@@ -1,19 +1,33 @@
-# README Generator
+# ;laksdj
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)] 
+## Description
+### ;asdkljf
 
-## This project was created to teach node.js and use it to create a program that generates a README througha series of questions in the terminal .
+## Installation
+### a;lskdfj
 
-## inquirer, fs, ./utils
+## Usage
+### a;lskdjf
 
-## none
+## Contributors
+###a;lskdjf
 
-## just me
+## License 
+### https://choosealicense.com/licenses/mit/
 
-## No License  
-### 
-
-## run node index.js in the terminal
+## Tests
+###;laksjdf
 
 ## Questions
+### If you have any questions about this program please refer to the links below.
+### Github: (https://github.com/a;lskdfj) 
+### Email: [a;sldfkj](mailto:a;sldfkj)
 
-### (https://github.com/danielcgraves "My GitHub page") 
-### [danielcgraves@yahoo.com](mailto:danielcgraves@yahoo.com "My Email Address")
+## Table Of Contents
+- [Description](#Description)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Contibutors](#Contributors)
+- [License](#License)
+- [Tests](#Tests)
+- [Questions](#Questions)

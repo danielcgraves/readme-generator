@@ -37,7 +37,7 @@ function renderLicenseSection(license) {
     if(license === 'No License') {
         licenseSection = ''
     } else {
-        licenseSection = 'license';
+        licenseSection = 'License: ';
     }
     return licenseSection;
 }
@@ -47,7 +47,7 @@ function generateMarkdown(title, license) {
   return `# ${title}
 
   ## ${renderLicenseSection(license)} ${renderLicenseBadge(license)} 
-  ###${renderLicenseLink(license)}
+  ### ${renderLicenseLink(license)}
 `;
 }
 

@@ -1,22 +1,22 @@
 # README Generator
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)] 
+ 
 ## Description
-### ;lkjasl;lkf
+### This project was created in order to learn node.js. The project is a program that generates a README file based on user input inside of a series of questions in their terminal.
 
 ## Installation
-### a;lsdjf;lksk
+### Install requirements include: inquirer, fs and a ./utils/markdownGenerator file.
 
 ## Usage
-### ;alksjdf
+### (https://watch.screencastify.com/v/1AqhhWZuS2nSx7HvsFIj)
 
 ## Contributors
-### me
+### Daniel Graves
 
-## License 
-### https://choosealicense.com/licenses/mit/
+##  
+### 
 
 ## Tests
-### ;lakjsdf
+### Run node index.js in the terminal
 
 ## Questions
 ### If you have any questions about this program please refer to the links below:

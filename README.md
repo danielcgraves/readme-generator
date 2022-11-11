@@ -1,4 +1,19 @@
-# dain
+# README Generator
 
-  ## License:  ![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg) 
-  ### https://www.apache.org/licenses/LICENSE-2.0
+## This project was created to teach node.js and use it to create a program that generates a README througha series of questions in the terminal .
+
+## inquirer, fs, ./utils
+
+## none
+
+## just me
+
+## No License  
+### 
+
+## run node index.js in the terminal
+
+## Questions
+
+### (https://github.com/danielcgraves "My GitHub page") 
+### [danielcgraves@yahoo.com](mailto:danielcgraves@yahoo.com "My Email Address")

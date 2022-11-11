@@ -35,19 +35,34 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
     let licenseSection = '';
     if(license === 'No License') {
-        licenseSection = ''
+        licenseSection = 'No License'
     } else {
-        licenseSection = 'License: ';
+        licenseSection = '';
     }
     return licenseSection;
 }
 
 // TODO: Create a function to generate markdown for README
-function generateMarkdown(title, license) {
+function generateMarkdown(title, description, installation, usage, contribution, license, test, github, email) {
   return `# ${title}
 
-  ## ${renderLicenseSection(license)} ${renderLicenseBadge(license)} 
-  ### ${renderLicenseLink(license)}
+## ${description}
+
+## ${installation}
+
+## ${usage}
+
+## ${contribution}
+
+## ${renderLicenseSection(license)} ${renderLicenseBadge(license)} 
+### ${renderLicenseLink(license)}
+
+## ${test}
+
+## Questions
+
+### (https://github.com/${github} "My GitHub page") 
+### [${email}](mailto:${email} "My Email Address")
 `;
 }
 

@@ -3,11 +3,11 @@
 function renderLicenseBadge(license) {
     let licenseBadge = '';
         if(license === 'MIT') {
-            licenseBadge = '![License: MIT (https://img.shields.io/badge/License-MIT-yellow.svg)]'
+            licenseBadge = '![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]'
         } else if(license === 'GNU GPLv3') {
-            licenseBadge = '![License: GPL v3 (https://img.shields.io/badge/License-GPLv3-blue.svg)'
+            licenseBadge = '![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)'
         } else if(license === 'Apache') {
-            licenseBadge = '![License: Apache 2.0 (https://img.shields.io/badge/License-Apache_2.0-blue.svg)'
+            licenseBadge = '![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)'
         } else {
             licenseBadge = '';
         }

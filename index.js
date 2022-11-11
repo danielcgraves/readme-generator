@@ -22,7 +22,7 @@ const questions = [
     {
         type: 'input',
         name: 'usage',
-        message: '',
+        message: 'Are there any screenshots or videos you would like to add for this project?',
     },
     {
         type: 'input',

@@ -56,18 +56,18 @@ ${renderLicenseBadge(license)}
 ### ${usage}
 
 ## Contributors
-###${contribution}
+### ${contribution}
 
 ## ${renderLicenseSection(license)} 
 ### ${renderLicenseLink(license)}
 
 ## Tests
-###${test}
+### ${test}
 
 ## Questions
-### If you have any questions about this program please refer to the links below.
-### Github: (https://github.com/${github}) 
-### Email: [${email}](mailto:${email})
+### If you have any questions about this program please refer to the links below:
+#### Github: (https://github.com/${github}) 
+#### Email: [${email}](mailto:${email})
 
 ## Table Of Contents
 - [Description](#Description)

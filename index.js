@@ -55,8 +55,6 @@ const questions = [
 // TODO: Create a function to initialize app
 
 inquirer.prompt(questions).then(({ title, description, installation, usage, contribution, license, test, github, email}) => {
-    console.log('title :>> ', title);
-    console.log('license :>>', license);
 
     const markdown = generateMarkdown(title, description, installation, usage, contribution, license, test, github, email);
     console.log(markdown);
@@ -65,11 +63,3 @@ inquirer.prompt(questions).then(({ title, description, installation, usage, cont
     console.error(err) : console.log('README generated')
     );
 });
-
-
-/* 
-function init() {}
-
-// Function call to initialize app
-init();
- */

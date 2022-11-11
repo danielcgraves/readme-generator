@@ -1,27 +1,27 @@
-# README Generator
- 
+# readme generator
+![License: MIT (https://img.shields.io/badge/License-MIT-yellow.svg)] 
 ## Description
-### This project was created in order to learn the basics of Node. The project uses Node in the terminal to generate a README file that can be easily added to any other program by answering a series of questions.
+### kdjal;sfajl;sf
 
 ## Installation
-### inquirer, fs and a ./utils/generateMarkdown file
+### ;lajsdfl;kajsdf
 
 ## Usage
-### Refer to this video:
+### ;lajsfl;ajsdf
 
 ## Contributors
-###Daniel Graves
+### me
 
-##  
-### 
+## License 
+### https://choosealicense.com/licenses/mit/
 
 ## Tests
-###Run "node index.js" in the terminal.
+### ;laksdfl;kaj
 
 ## Questions
-### If you have any questions about this program please refer to the links below.
-### Github: (https://github.com/danielcgraves) 
-### Email: [danielcgraves@yahoo.com](mailto:danielcgraves@yahoo.com)
+### If you have any questions about this program please refer to the links below:
+#### Github: (https://github.com/danielcgraves) 
+#### Email: [danielcgraves@yahoo.com](mailto:danielcgraves@yahoo.com)
 
 ## Table Of Contents
 - [Description](#Description)
